@@ -1,0 +1,30 @@
+.container {
+    background-image: url("../../images/mainGirl.png");
+    background-repeat: no-repeat;
+
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.wraper {
+    width: 80%;
+    margin-top: 290px;
+}
+
+
+.title {
+    position: absolute;
+    font-family: 'Open Sans',Arial,sans-serif;
+    font-size: 48px;
+    line-height: 1.23;
+
+}
+@media screen and (max-width: 600px) {
+    .title {
+        font-size: 28px;
+        line-height: 1.43;
+    }
+}

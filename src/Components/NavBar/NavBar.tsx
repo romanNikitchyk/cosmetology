@@ -13,7 +13,7 @@ export const NavBar = () => {
           <img src={logo} alt="logo"/>
         </div>
         <Dropdown menu={{ items }}>
-          <a onClick={(e) => e.preventDefault()}>
+          <a onClick={(e) => alert('hi')}>
             <Space className={styles.navButtons}>
               Услуги
               <DownOutlined />
