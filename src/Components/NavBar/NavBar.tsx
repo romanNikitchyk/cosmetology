@@ -6,6 +6,7 @@ import type {MenuProps} from 'antd';
 import { Dropdown, Space } from 'antd';
 
 export const NavBar = () => {
+  console.log('NavBar')
   return (
     <header className={styles.navbar}>
       <div className={styles.container}>
