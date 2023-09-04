@@ -1,18 +1,8 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import styles from './Landing.module.css'
 import { Button } from "antd";
-import {db, getCities} from "../../firebaseConfig";
 
-  export const Landing = () => {
-    console.log('Landing')
-   useEffect(()=> {
-     getCities(db)
-       .then((res)=>{
-         console.log(res)
-       })
-
-   },[])
-
+export const Landing = () => {
   return (
     <div className={styles.container}>
       <div className={styles.wraper}>
